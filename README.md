@@ -1,55 +1,81 @@
 
-🧮 WhileCalculator
-Calculadora interativa em terminal desenvolvida em Python.
+```
+╔══════════════════════════════════════╗
+║   🧮 WhileCalculator                 ║
+║   Calculadora interativa em terminal ║
+╚══════════════════════════════════════╝
+```
 
-� �
-📖 Descrição
-O WhileCalculator é uma aplicação em linha de comando que permite ao usuário realizar operações matemáticas básicas através de um menu interativo utilizando estruturas de repetição.
-O projeto foi desenvolvido para prática de:
-while
-if / elif
-break
-try / except
-Entrada de dados com input()
+Aplicação CLI desenvolvida em Python para prática de estruturas de controle e repetição.
 
-✨ Funcionalidades
-Menu interativo
-Operações disponíveis:
-Soma (+)
-Subtração (-)
-Multiplicação (*)
-Divisão (/)
-Encerramento pelo usuário
-Tratamento básico de erro
+---
 
-🛠 Tecnologias
-Python 3.x
-Terminal / CLI
-🧪 Exemplo de Execução
-Copiar código
+## 📖 Sobre o projeto
 
+O **WhileCalculator** é uma calculadora em linha de comando com menu interativo.  
+Desenvolvida como projeto de estudo, com foco em lógica de programação e fluxo de controle.
+
+**Conceitos praticados:**
+
+```python
+while        # loop principal do menu
+if / elif    # seleção de operações
+break        # encerramento controlado
+try / except # tratamento de erros
+input()      # entrada de dados do usuário
+```
+
+---
+
+## ✨ Funcionalidades
+
+- Menu interativo no terminal
+- Quatro operações matemáticas: `+` `-` `*` `/`
+- Encerramento pelo usuário
+- Tratamento básico de erro
+
+---
+
+## 🖥 Exemplo de execução
+
+```bash
 ===BEM VINDO A WHILECALCULATOR===
-
 ---Escolha 1 para calcular---
 ---Escolha 2 para sair---
 
 Escolha a opção que se encaixe: 1
-Operadores: +/-*
-
+Operadores: + - * /
 Digite seu operador: +
 Digite um número: 10
 Digite um outro número: 5
 
-Resultado 15
+Resultado: 15
+```
 
-🔧 Git
-📥 Repositório
-https://github.com/Carlos-coder-c/Calculadora-com-While�
+---
 
-📤 Clonar
-Copiar código
-Bash
+## 🛠 Tecnologias
+
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat&logo=python&logoColor=white)
+![CLI](https://img.shields.io/badge/Interface-Terminal%20%2F%20CLI-black?style=flat&logo=gnometerminal&logoColor=white)
+
+---
+
+## 🚀 Como usar
+
+```bash
+# Clonar o repositório
 git clone https://github.com/Carlos-coder-c/Calculadora-com-While
 
-👨‍💻 Autor
-Carlos
+# Entrar na pasta
+cd Calculadora-com-While
+
+# Executar
+python calculadora.py
+```
+
+---
+
+## 👨‍💻 Autor
+
+Feito por **Carlos** — [GitHub](https://github.com/Carlos-coder-c)
